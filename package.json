@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@unocss/nuxt": "^0.58.3",
+    "@varlet/nuxt": "^0.0.4",
+    "dayjs-nuxt": "^2.1.9",
+    "nuxt": "^3.9.0",
+    "vue": "^3.4.6",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@varlet/touch-emulator": "^2.20.7",
+    "@vueuse/nuxt": "^10.7.1"
+  }
+}
