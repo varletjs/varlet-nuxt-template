@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("@/assets/fonts/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("@/assets/fonts/Roboto-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Homemade Apple";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/homemade-apple-v18.ttf) format("truetype");
+}
+
+::-moz-selection {
+  background: var(--c-bg-selection);
+}
+
+::selection {
+  background: var(--c-bg-selection);
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Roboto", "SourceHanSans", "sans-serif";
+  font-size: var(--font-size, 15px);
+  width: 100%;
+  width: 100vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Roboto", "SourceHanSans",
+    "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+/* Force vertical scrollbar to be always visible to avoid layout shift while loading the content */
+body {
+  overflow-y: scroll;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#__nuxt {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
