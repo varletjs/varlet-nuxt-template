@@ -47,6 +47,13 @@ html {
 body {
   overflow-y: scroll;
   -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.25s, color 0.25s;
+  color: var(--color-text);
+  background-color: var(--color-body);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  min-height: var(--app-height);
 }
 
 html,
@@ -55,4 +62,12 @@ body,
   min-height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+:root {
+  --app-height: 100vh;
+  --app-cell-active-background: #6200ee14;
+  --app-title-color: #333;
+  --app-subtitle-color: rgba(0, 0, 0, 0.6);
+  --app-description-color: rgba(0, 0, 0, 0.6);
 }
