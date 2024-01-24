@@ -13,6 +13,21 @@ export default defineNuxtConfig({
     '~/styles/global.css',
   ],
   i18n: {
-    vueI18n: './i18n'
+    vueI18n: './i18n',
+  },
+  vite: {
+    vue: {
+      template: {
+        transformAssetUrls: {
+          img: ['src'],
+          video: ['src'],
+          audio: ['src'],
+          'var-image': ['src'],
+          'var-avatar': ['src'],
+          'var-card': ['src'],
+          'var-app-bar': ['image']
+        }
+      }
+    }
   }
 })

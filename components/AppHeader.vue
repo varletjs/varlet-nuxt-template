@@ -13,7 +13,7 @@ defineProps({
 </script>
 
 <template>
-  <header w-full fixed top-0 left-0 z-100 p-r-2>
+  <header w-full fixed top-0 left-0 z-100>
     <var-app-bar safe-area-top :title="title" :title-position="titlePosition">
       <template #left>
         <slot name="left" />
