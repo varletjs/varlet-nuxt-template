@@ -62,9 +62,9 @@ function toggleHeart() {
       <div p-y-1px>
         <div max-w-80 text-size="[var(--card-title-font-size)]" p="[var(--card-title-padding)]"
           m="[var(--card-title-margin)]" c="[var(--card-title-color)]">{{ $t('Card Title') }}</div>
-        <div text="[var(--card-subtitle-font-size)]" p="[var(--card-subtitle-padding)]" m="[var(--card-subtitle-margin)]"
+        <div text-size="[var(--card-subtitle-font-size)]" p="[var(--card-subtitle-padding)]" m="[var(--card-subtitle-margin)]"
           c="[var(--card-subtitle-color)]">{{ $t('Card Subtitle') }}</div>
-        <div text="[var(--card-description-font-size)]" p="[var(--card-description-padding)]"
+        <div text-size="[var(--card-description-font-size)]" p="[var(--card-description-padding)]"
           m="[var(--card-description-margin)]" c="[var(--card-description-color)]" line-height-normal>
           {{ $t('Card Description') }}
         </div>

@@ -1,4 +1,8 @@
 <script setup lang="ts">
+definePageMeta({
+  layout: 'default',
+})
+
 const router = useRouter()
 const active = ref('card')
 const isRefresh = ref(false)
