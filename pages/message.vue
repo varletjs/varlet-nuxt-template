@@ -1,4 +1,8 @@
 <script setup lang="ts">
+definePageMeta({
+  layout: 'default',
+})
+
 const isRefresh = ref(false)
 
 function handleRefresh() {
