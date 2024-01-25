@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { setLocale, type Locale } from '@/i18n'
+import { setLocale, type Locale } from '~/i18n'
 
 const show = ref(false)
 

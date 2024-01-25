@@ -20,12 +20,12 @@ const show = ref(false)
 
       <div of-hidden p-x-1 p-y-2 h="[calc(var(--app-height)-170px)]">
         <var-space direction="column">
-          <var-cell rd-1 :title="$t('Sign In')" @click="$router.push(`/sign-in`)">
+          <var-cell rd-1 :title="$t('Sign In')" @click="$router.push(`/signin`)">
             <template #icon>
               <var-icon m-r-5 name="image" />
             </template>
           </var-cell>
-          <var-cell rd-1 :title="$t('Sign Up')" @click="$router.push(`/sign-up`)">
+          <var-cell rd-1 :title="$t('Sign Up')" @click="$router.push(`/signup`)">
             <template #icon>
               <var-icon m-r-5 name="image" />
             </template>
