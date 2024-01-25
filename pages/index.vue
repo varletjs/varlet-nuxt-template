@@ -83,7 +83,13 @@ async function handleRefresh() {
         </var-tab-item>
         <var-tab-item min-h="[calc(var(--app-height)-var(--tabs-item-horizontal-height)-var(--app-bar-height))]"
           name="rowCard">
-
+          <var-result type="empty" :title="$t('Null')" :description="$t('Null Description')">
+            <template #footer>
+              <var-button color="var(--result-empty-color)" text-color="#fff">
+                {{ $t('I Know') }}
+              </var-button>
+            </template>
+          </var-result>
         </var-tab-item>
         <var-tab-item min-h="[calc(var(--app-height)-var(--tabs-item-horizontal-height)-var(--app-bar-height))]"
           name="plainCard">

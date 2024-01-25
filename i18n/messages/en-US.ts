@@ -54,5 +54,8 @@ export default {
   'Email format error': 'Email format error',
   'Length must be {length}': 'Length must be {length}',
   'Not match the password': 'Not match the password',
-  'Submit Success': 'Submit Success'
+  'Submit Success': 'Submit Success',
+  'I Know': 'I know',
+  'Null': 'Null',
+  'Null Description': 'Hi This is a description for null',
 }

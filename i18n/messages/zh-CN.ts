@@ -54,5 +54,8 @@ export default {
   'Email format error': '邮箱格式错误',
   'Length must be {length}': '长度必须为{length}',
   'Not match the password': '与密码不一致',
-  'Submit Success': '提交成功'
+  'Submit Success': '提交成功',
+  'I Know': '知道了',
+  'Null': '空值',
+  'Null Description': '嗨~ 我是空值的一段描述',
 }
