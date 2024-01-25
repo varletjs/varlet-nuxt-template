@@ -1,75 +1,107 @@
-# Nuxt 3 Minimal Starter
+# varlet-nuxt-template
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+### Intro
 
-## Setup
+varlet-nuxt-template is an out-of-the-box lightweight mobile web template, developed based on `Vue3`, `Varlet`, `Nuxt`, `Typescript`.
 
-Make sure to install the dependencies:
+### License
 
-```bash
-# npm
-npm install
+This project is based on the `MIT` license
 
-# pnpm
+### Features
+
+- ⚡️ &nbsp; Developed based on `Vue3`, `Varlet`, `Nuxt`, `Typescript`
+- 📦 &nbsp; Automatic and on-demand import of built-in component libraries and third-party libraries
+- 🗂 &nbsp; Built-in stack routing navigation similar to native apps
+- 🗂 &nbsp; Built-in conventional routing based on file directory structure
+- 🌍 &nbsp; Built-in application-level internationalization
+- 📦 &nbsp; Built-in request library integrated, support composition api
+- 📦 &nbsp; Built-in theme customization
+- 📦 &nbsp; Built-in mobile debugging tool
+- 📦 &nbsp; Built-in `unocss` integration
+- 📦 &nbsp; Built-in `eslint`, `commitlint`, `lint-staged`, `prettier` and other code checking/formatting tools
+- 💪 &nbsp; Officially maintained by `varletjs`, the first party provides support for `varlet`
+
+### Page Preview Address
+
+https://varletjs.github.io/varlet-nuxt-template
+
+### Install And Use
+
+#### Get Project
+
+[Create a repository from this template repository](https://github.com/varletjs/varlet-nuxt-template/generate)
+
+or
+
+```shell
+git clone https://github.com/varletjs/varlet-nuxt-template.git
+```
+
+#### Install Dependencies
+
+```shell
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+#### Start the development environment
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+```shell
+pnpm dev
 ```
 
-## Production
+#### Build
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+```shell
+pnpm build
 ```
 
-Locally preview production build:
+#### Preview
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+```shell
+pnpm preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+#### Lint Code
+
+```shell
+pnpm lint
+```
+
+#### TS type checking
+
+```shell
+pnpm type-check
+```
+
+#### Code Formatting
+
+```shell
+pnpm format
+```
+
+### Community
+
+We recommend that `issue` be used for problem feedback, or others:
+
+* Wechat group 
+
+<img style="width: 25%" src="https://cdn.jsdelivr.net/gh/varletjs/varlet-static/community.png" />
+
+* Join the [Discord](https://discord.gg/Dmb8ydBHkw)
+
+### Thanks to contributors
+
+<a href="https://github.com/varletjs/varlet-nuxt-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=varletjs/varlet-nuxt-template" />
+</a>
+
+### Thanks to the following sponsors
+
+<a href="https://cdn.jsdelivr.net/gh/varletjs/varlet-static/sponsorkit/sponsors.svg">
+  <img src="https://cdn.jsdelivr.net/gh/varletjs/varlet-static/sponsorkit/sponsors.svg">
+</a>
+
+### Sponsor this project
+
+Sponsor this project to support our better creation. It is recommended to use afdian to subscribe, and your avatar will appear in this project.
