@@ -9,19 +9,18 @@ function handleRefresh() {
 
 <template>
   <div class="topic" p-t="$calc(var(--app-bar-height)+1px)">
+    <app-header>
+      <template #left>
+        <app-side-menu />
+      </template>
+      <template #right>
+        <app-locale-switch />
+        <client-only>
+          <app-theme-switch />
+        </client-only>
+      </template>
+    </app-header>
     <var-pull-refresh v-model="isRefresh" @refresh="handleRefresh">
-      <app-header>
-        <template #left>
-          <app-side-menu />
-        </template>
-        <template #right>
-          <app-locale-switch />
-          <client-only>
-            <app-theme-switch />
-          </client-only>
-        </template>
-      </app-header>
-
       <var-collapse v-model="active" :elevation="0" :offset="false">
         <var-collapse-item v-for="i in 20" :key="i">
           <template #title>

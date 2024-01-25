@@ -12,14 +12,17 @@
   "devDependencies": {
     "@nuxtjs/i18n": "^8.0.0-rc.1",
     "@unocss/nuxt": "^0.58.3",
+    "@unocss/preset-rem-to-px": "^0.58.3",
     "@varlet/nuxt": "^0.0.4",
     "dayjs-nuxt": "^2.1.9",
     "nuxt": "^3.9.0",
+    "unocss-preset-px-to-viewport": "^1.0.1",
     "vue": "^3.4.6",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
     "@varlet/touch-emulator": "^2.20.7",
-    "@vueuse/nuxt": "^10.7.1"
+    "@vueuse/nuxt": "^10.7.1",
+    "postcss-px-to-viewport": "^1.1.1"
   }
 }
