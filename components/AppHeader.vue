@@ -13,21 +13,23 @@ defineProps({
 </script>
 
 <template>
-  <header w-full fixed top-0 left-0 z-100>
-    <var-app-bar safe-area-top :title="title" :title-position="titlePosition">
-      <template #left>
-        <slot name="left" />
-      </template>
+  <header h="[var(--app-bar-height)]">
+    <div w-full fixed top-0 left-0 z-100>
+      <var-app-bar safe-area-top :title="title" :title-position="titlePosition">
+        <template #left>
+          <slot name="left" />
+        </template>
 
-      <template #right>
-        <var-space class="app-header-right" :size="[0, '1.4vmin']">
-          <slot name="right" />
-        </var-space>
-      </template>
+        <template #right>
+          <var-space class="app-header-right" :size="[0, '1.4vmin']">
+            <slot name="right" />
+          </var-space>
+        </template>
 
-      <template #content>
-        <slot name="content" />
-      </template>
-    </var-app-bar>
+        <template #content>
+          <slot name="content" />
+        </template>
+      </var-app-bar>
+    </div>
   </header>
 </template>

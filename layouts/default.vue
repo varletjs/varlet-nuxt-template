@@ -43,12 +43,19 @@ function to(path: string) {
 </script>
 
 <template>
-  <div of-y-auto p-t="[var(--app-bar-height)]" p-b="[var(--bottom-navigation-height)]" h="[var(--app-height)]">
-    <slot />
+  <div of-y-auto p-b="[var(--bottom-navigation-height)]" h="[var(--app-height)]">
+    
+    <Transition>
+      <div>
+        <slot />
+      </div>
+    </Transition>
 
-    <var-bottom-navigation border safe-area fixed v-model:active="active">
-      <var-bottom-navigation-item v-for="item in tabs" :key="item.label" :label="$t(item.label)" :icon="item.icon"
-        :name="item.name" @click="() => to(item.name)" />
-    </var-bottom-navigation>
+    <client-only>
+      <var-bottom-navigation border safe-area fixed v-model:active="active">
+        <var-bottom-navigation-item v-for="item in tabs" :key="item.label" :label="$t(item.label)" :icon="item.icon"
+          :name="item.name" @click="() => to(item.name)" />
+      </var-bottom-navigation>
+    </client-only>
   </div>
 </template>
