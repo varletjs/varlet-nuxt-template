@@ -18,10 +18,10 @@ function handleRefresh() {
         <app-side-menu />
       </template>
       <template #right>
-        <app-locale-switch />
         <client-only>
           <app-theme-switch />
         </client-only>
+        <app-locale-switch />
       </template>
       <template #content>
         <div>

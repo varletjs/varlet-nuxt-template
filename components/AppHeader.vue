@@ -13,7 +13,7 @@ defineProps({
 </script>
 
 <template>
-  <header h="[var(--app-bar-height)]">
+  <header class="app-header" h="[var(--app-bar-height)]">
     <div w-full fixed top-0 left-0 z-100>
       <var-app-bar safe-area-top :title="title" :title-position="titlePosition">
         <template #left>

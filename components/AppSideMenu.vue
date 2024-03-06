@@ -4,7 +4,7 @@ const show = ref(false)
 </script>
 
 <template>
-  <var-button text round @click="show = !show" v-bind="$attrs">
+  <var-button size="small" text round @click="show = !show" v-bind="$attrs">
     <var-icon name="menu" />
   </var-button>
 
@@ -26,11 +26,13 @@ const show = ref(false)
             </template>
           </var-cell>
           <var-cell rd-1 :title="$t('Sign Up')" @click="$router.push(`/signup`)">
+
             <template #icon>
               <var-icon m-r-5 name="image" />
             </template>
           </var-cell>
           <var-cell rd-1 :title="$t('Settings')" @click="$router.push(`/settings`)">
+
             <template #icon>
               <var-icon m-r-5 name="cog" />
             </template>

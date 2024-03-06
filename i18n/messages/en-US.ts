@@ -1,4 +1,7 @@
 export default {
+  'Theme Light': 'Light',
+  'Theme Dark': 'Dark',
+
   HOME: 'HOME',
   PROFILE: 'PROFILE',
   Warning: 'Warning',

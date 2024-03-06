@@ -1,4 +1,7 @@
 export default {
+  'Theme Light': '亮色',
+  'Theme Dark': '暗色',
+
   HOME: '首页',
   PROFILE: '我的',
   Warning: '警告',

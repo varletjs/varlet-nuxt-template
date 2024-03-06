@@ -20,8 +20,9 @@ function handleCellClick(locale: Locale) {
 
 <template>
   <var-menu close-on-click-reference placement="bottom" offset-y="2vmin" v-model:show="show">
-    <var-button text round>
+    <var-button size="small" text>
       <var-icon text-6 name="translate" />
+      <var-icon text-6 name="chevron-down" />
     </var-button>
 
     <template #menu>
